@@ -10,13 +10,13 @@
 *******************************
 [rewrite_local]
 # 用户信息接口 - 解锁VIP
-^https?:\/\/www\.babeword\.com\/lw\/seed\/user\/info url script-response-body https://raw.githubusercontent.com/your-repo/lightwords-vip/main/lightwords.js
+^https?:\/\/www\.babeword\.com\/lw\/seed\/user\/info url script-response-body https://raw.githubusercontent.com/onefan2048/lightword/refs/heads/main/lightwords.js
 
 # 弹窗信息查询 - 移除广告
-^https?:\/\/www\.babeword\.com\/lw\/seed\/user\/queryPopInfo url script-response-body https://raw.githubusercontent.com/your-repo/lightwords-vip/main/lightwords-popup.js
+^https?:\/\/www\.babeword\.com\/lw\/seed\/user\/queryPopInfo url script-response-body https://raw.githubusercontent.com/onefan2048/lightword/refs/heads/main/lightwords-popup.js
 
 # 单词书详情 - 解锁所有内容
-^https?:\/\/www\.babeword\.com\/lw\/seed\/word\/book\/unit\/detail\/v2 url script-response-body https://raw.githubusercontent.com/your-repo/lightwords-vip/main/lightwords-content.js
+^https?:\/\/www\.babeword\.com\/lw\/seed\/word\/book\/unit\/detail\/v2 url script-response-body https://raw.githubusercontent.com/onefan2048/lightword/refs/heads/main/lightwords-content.js
 
 [mitm]
 hostname = www.babeword.com
